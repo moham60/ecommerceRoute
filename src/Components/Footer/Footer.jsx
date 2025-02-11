@@ -17,7 +17,7 @@ export default function Footer() {
           id=""
           placeholder="Email.."
         />
-        <button className="p-2 rounded-md bg-[#04c033] text-white">
+        <button className="p-2 w-[70%] md:w-auto rounded-md bg-[#04c033] text-white">
           Share App Link
         </button>
       </div>

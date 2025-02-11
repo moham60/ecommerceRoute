@@ -44,6 +44,7 @@ export default function Login() {
         localStorage.setItem("tkn", res.data.token);
       })
       .catch((x) => {
+         setisloading(false);
         Swal.fire({
           title: "Oops!",
           text: x.response.data.message,

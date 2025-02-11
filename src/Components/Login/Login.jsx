@@ -4,7 +4,7 @@ import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import * as yup from "yup";
-import { authenticateObj } from "../AuthenticationContext/Authentication.Jsx";
+import { authenticateObj } from "../AuthenticationContext/Authentication.jsx";
 import toast from "react-hot-toast";
 import "./Loginstyle.css";
 import LoaderScreen from "../LoaderScreen/LoaderScreen";

@@ -22,10 +22,10 @@ export default function Footer() {
         </button>
       </div>
       <div className="flex my-4  py-6 justify-between">
-        <div className="payement flex items-center gap-2">
-          <span className="text-xl">Payment Parteners:</span>
+        <div className="payement flex items-center justify-center gap-2">
+          <span className="md:text-2xl">Payment Parteners:</span>
           <div className="images flex items-center gap-2">
-            <img className="w-[55px]" src={payImg1} alt="" />
+            <img className="w-[40px]" src={payImg1} alt="" />
             <img className="w-[40px]" src={payImg2} alt="" />
             <img className="w-[40px]" src={payImg3} alt="" />
             <img className="w-[40px]" src={payImg4} alt="" />

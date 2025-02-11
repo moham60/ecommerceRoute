@@ -9,7 +9,7 @@ export default function Footer() {
       <p className="text-gray-400">
         We will send you a link, open it on your phone to download the app
       </p>
-      <div className="flex justify-center gap-2 my-4 items-center">
+      <div className="flex flex-col md:flex-row justify-center gap-2 my-4 items-center">
         <input
           type="email"
           className="w-[70%] rounded-md border-none"
@@ -22,7 +22,7 @@ export default function Footer() {
         </button>
       </div>
       <div className="flex my-4  py-6 justify-between">
-        <div className="payement flex items-center justify-center gap-2">
+        <div className="payement flex items-center w-full justify-center gap-2">
           <span className="md:text-2xl">Payment Parteners:</span>
           <div className="images flex items-center gap-2">
             <img className="w-[40px]" src={payImg1} alt="" />
